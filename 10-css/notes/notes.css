@@ -1,0 +1,33 @@
+/* Cascading Style Sheet */
+
+/* Here's an example rule */
+/* Rules can apply to
+-Tags 
+-ClassNames
+-id
+-Complex
+-Nested
+*/
+
+
+body{
+    background-color:red
+}
+
+body p{
+    color: blue;
+}
+.bodyParagraphs{
+    color:white;
+}
+
+/* Tag
+.class
+#id
+*/
+
+#uniqueParagraph + p{
+    color:yellow
+}
+
+/*Order of Specificity */
