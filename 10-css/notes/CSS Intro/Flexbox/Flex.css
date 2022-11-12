@@ -1,0 +1,29 @@
+.flexContainer {
+
+    border:1px solid #000;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexItem{
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    margin: 30px
+
+}
+
+.flexItem1{
+    
+}
+
+.flexItem2{
+
+}
+
+.flexItem3{
+
+}
