@@ -1,0 +1,58 @@
+html{ font-size: 16px;}
+body{
+    font: 1.5rem veranda, ariel,sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+h1{font-size: 4rem; margin-bottom: .5cm;}
+h2{font-size: 3rem; margin:1cm 0.25em;}
+h3{font-size: 2.5rem; margin-bottom: .25em;}
+p{margin: 0 0 1em;}
+
+
+header{
+    background-color: purple;
+    font-size: 3rem;
+    height:100px;
+    text-align: center;
+    border: solid px black;
+}
+
+.main{
+    background-color: blue;
+    flex:1;
+    text-align: center;
+   
+    
+}
+
+main{
+    display: flex;
+    flex:1 1 0%;
+    margin: 0;
+    text-align:center;
+}
+
+.sidebar1{
+    background-color: red;
+    width: 200px;
+    flex:0 0 25%;
+    order: -1;
+    text-align: center;
+}
+
+.sidebar2{
+    background-color: red;
+    width:200px;
+    flex:0 0 25%;
+    text-align: center;
+}
+
+footer{
+    background-color: green;
+    height: 50px;
+    text-align: center;
+
+}
