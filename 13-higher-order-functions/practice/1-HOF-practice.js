@@ -33,7 +33,31 @@ console.log(calculateAll( 12,4,2,divide));
 //          Ex: modify(sarcastic, 'I really like running') => I ReAlLy lIkE RuNnIng
 //          Ex: modify(code, 'There is no cake') => Th-r- -s n- c-k-
 
+const yeller = (string) => {
+return string.toUpperCase() + '!!!'
+}
+console.log(yeller('i am hungry'))
+
 // 4.   Write a function that takes in an array filled with different data types and returns each data type
 //          Ex: oneType(strings, ['I love coding', 10, undefined, Infinity, 'goosfraba', null, ['Nested Array!']]) => ['I love coding, 'goosfraba']
 //          Ex: oneType(arrays, ['I love coding', 10, undefined, Infinity, 'goosfraba', null, ['Nested Array!']]) => ['Nested Array!']
 //          Ex: oneType(nums, ['I love coding', 10, undefined, Infinity, 'goosfraba', null, ['Nested Array!']]) => [10, Infinity]
+
+// create function with an array which acts upon the array 
+
+function oneType( nums,callback){
+   return callback(nums)
+}
+
+let newArray= oneType([1,2,3,4,'hey','how','are', 'you',[2,8,10]],nums=>{
+
+    let placeholder = []
+
+for(let i = 0; i<nums.length;i++){
+    if(typeof(nums[i]) === typeof(2)){
+        placeholder.push(nums[i])
+    }
+}
+return placeholder
+})
+console.log(newArray)
