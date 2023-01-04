@@ -13,7 +13,12 @@ function loopAndPrint(arr){
     }
 }
 
-// 1.   What is the big O of the following function
+
+// Big O notation of this problem is O(n) because it loops through the array regardless of the length of it .
+
+
+
+// 3.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function findMax(arr){
@@ -28,13 +33,24 @@ function findMax(arr){
     return max;
 }
 
-// 2.   What is the big O of the following function
+//  Big O notation of this problem is O(n) because it loops through the array regardless of the length of it .
+
+
+
+// 4.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 function printLast(arr){
     console.log(arr[arr.length-1]);
 }
 
-// 3.   What is the big O of the following function
+
+
+//  The big o notation is O(1) because it is looping through there is no dependence on the input size
+// It will only require one execution step 
+
+
+
+// 5..   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 function everyOther(str){
     let newStr = '';
@@ -45,23 +61,33 @@ function everyOther(str){
 
     return newStr;
 }
+ //  Big O notation of this problem is O(n) because it loops through the string regardless of the length of it .
 
-// 4.   What is the big O of the following function
+
+
+// 6.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function doubled(num) {
     return 2 * num
 }
+//  The big o notation is O(1) because it is looping through there is no dependence on the input size
+// It will only require one execution step 
 
-// 5.   What is the big O of the following function
+
+// 7.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function multipleSteps(num) {
     let final = 4 * num
     return final * 3
 }
+//  The big o notation is O(1) because it is looping through there is no dependence on the input size
+// It will only require one execution step 
 
-// 5.   What is the big O of the following function
+
+
+// 8.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function backwardsArr(arr) {
@@ -71,7 +97,10 @@ function backwardsArr(arr) {
     }
     return arrReversed
 }
-// 6.   What is the big O of the following function
+//  Big O notation of this problem is O(n) because it loops through the array regardless of the length of it .
+
+
+// 9.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function multiplyAll(arr1, arr2) {
@@ -84,19 +113,31 @@ function multiplyAll(arr1, arr2) {
     }
     return total
 }
-// 7.   What is the big O of the following function
+// Big O notation of this problem is O(n^2) because it loops through the array regardless of the length of it .
+
+
+// 10.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums = [10,20,30,40];
 nums.push(50);
+//  The big o notation is O(1) because it is looping through there is no dependence on the input size
+// It will only require one execution step 
 
-// 8.   What is the big O of the following function
+
+
+
+// 11.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums2 = [10,20,30,40];
 nums.unshift(0);
+// //  The big o notation is O(1) because it is looping through there is no dependence on the input size
+// It will only require one execution step 
 
-// 9.   What is the big O of the following function
+
+
+// 12.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function logTime(arr) {
@@ -106,3 +147,4 @@ function logTime(arr) {
     }
     return numberOfLoops
 }
+//  Big O notation of this problem is O(log n) because we are executing the operation faster by multiplying by 2.
